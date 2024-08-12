@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="The Paris 2024 Summer Olympics and Paralympics.ico">
+    <title>Clasificacion olimpica BMX</title>
+</head>
+<body>
+    <header> CLASIFICÍON OLÍMPICA DE BMX </header>
+    
+        <p id="carr" class="carrera">Crear carrea aleatoria</p>
+        
+    
+    <div class="superpuesto" id="superpuesto">
+        <table class="categorias">
+            <tr>
+            <td>Nombre</td>
+            <td>Pais </td>
+            <td>Tiempo(Sg)</td>
+            <td>Posicion</td>
+        </tr>
+        </table>
+        
+        <table id="tabla2" class="tabla">
+       
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+            
+            <p class="cerrar" id="cerrar">cerrar</p>
+    </div>
+    <section>
+        <div>
+            <div class="ordenar">
+            <h2>Ordenar tabla </h2>
+            <label for="tiempoBtn">Tiempo</label>
+            <input type="radio" id="tiempoBtn" name="radi">
+
+            <label for="puntuacionBtn" >Puntuacion</label>
+            <input type="radio" id="puntuacionBtn" name="radi">
+
+            <label for="paisBtn">Pais</label>
+            <input type="radio" id="paisBtn" name="radi">
+            </div>
+            <table class="categorias">
+                <tr>
+                <td>Nombre</td>
+                <td>Pais </td>
+                <td>Tiempo(Sg)</td>
+                <td>Posicion</td>
+            </tr>
+            </table>
+            <table id="tabla" class="tabla">
+                <tr>
+                    <td>Nombre</td>
+                    <td>Pais</td>
+                    <td>Tiempo</td>
+                    <td>Puntuacion</td>
+                </tr>
+            </table>
+            <div id="superpuesto2" class="superpuesto2">
+                jiji
+                <p class="cerrar" id="cerrar2">cerrar</p>
+            </div>
+        </div>
+        <div>
+            <h2 class="registrar">Registro de atletas</h2>
+
+            <form action="" id="formulario" class="form">
+                <label for="nombre">Nombres</label>
+                <input type="text" id="nombre" placeholder="Nombres">
+
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" placeholder="Apellidos">
+
+                <label for="nacionalidad">Nacionalidad</label>
+                <input type="text" id="nacionalidad" placeholder="Nacionalidad">
+
+                <label for="tiempo">Tiempo</label>
+                <input type="text" id="tiempo" placeholder="Tiempo en segundos">
+
+                <button type="submit" id="boton">Registrar nuevo atleta</button>
+
+            </form>
+            <p class="crearP" id="crearP">Crear un participante <br>aleatorio</p>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
